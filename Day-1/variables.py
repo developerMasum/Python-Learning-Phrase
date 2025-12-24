@@ -70,3 +70,31 @@ str_age = "30"
 #  print(first_name + age)
 print(first_name + " is " + str(age) + " years old.")
 print(first_name + " is " + str(int(str_age)) + " years old.")
+
+
+# Global variabe 
+x = "awesome"
+def func():
+  print("Python is " + x)
+func()
+
+
+x = "awesome"
+
+def myfunc():
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
+
+
+# Global var 
+b = "great"
+def myfunc2():
+  global b
+  b = "Interesting"
+  print("Python is " + b)
+myfunc2()
+print("Python is " + b)
