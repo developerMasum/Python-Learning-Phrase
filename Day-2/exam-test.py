@@ -48,10 +48,10 @@ print(s[::2])       # Every second character
 
 
 # Q5: Reverse the string "Developer"
+# Expected output: repoleveD
 s = "Developer"
 reversed_s = s[::-1]
 print(reversed_s)
-# Expected output: repoleveD
 
 
 # Q6: Convert the string "i love python" into "I Love Python"
