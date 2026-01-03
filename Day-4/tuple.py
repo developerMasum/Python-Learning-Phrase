@@ -79,3 +79,13 @@ fruits = ("apple", "mango", "papaya", "pineapple", "cherry")
 print(green)
 print(tropic)
 print(red)
+
+print(fruits * 2)  # duplicates the tuple\
+print(fruits + x)  # concatenation of tuples
+
+number = (1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
+repeat = number * 3
+
+print(repeat)  # prints the tuple repeated 3 times
+print(repeat.count(3))  # counts occurrences of 3 in the tuple
+print(repeat.index(7))  # finds the first index of 7 in the tuple
