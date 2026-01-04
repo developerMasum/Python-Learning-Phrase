@@ -1,13 +1,18 @@
 # function.py
-# Day-4: Functions in Python
-def success(dedication, persistence, passion):
-    dedication += 1
-    persistence += 1
-    passion = True
+# check leap year or not
+year = int(2024)
 
-    if passion == True:
-        magic = dedication + persistence
-        return magic
+
+def is_leap_year(year):
+    if (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0):
+        return True
     else:
-        magic = 0
-        return magic
+        return False
+
+
+if __name__ == "__main__":
+    result = is_leap_year(year)
+    if result:
+        print(f"{year} is a leap year")
+    else:
+        print(f"{year} is not a leap year")
