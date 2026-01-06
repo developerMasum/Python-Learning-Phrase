@@ -1,0 +1,17 @@
+x = ["apple", "banana", "cherry"]
+print(x)
+print(x[1])
+x[1] = "blackcurrant"
+print(x)
+print(len(x))
+x.append("orange")
+print(x)
+x.remove("apple")
+print(x)
+print(len(x))
+x.insert(1, "appleX")
+print(x)
+x.pop(1)
+print(x)
+x.remove("cherry")
+print(x)
